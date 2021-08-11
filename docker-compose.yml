@@ -6,9 +6,9 @@ services:
     command: sh -c "yarn install && yarn run dev"
     ports: 
       - 3000:3000
-    working_dir: /app
+    working_dir: /e2eCypressDockerExample
     volumes: 
-      - ./:/app
+      - ./:/e2eCypressDockerExample
     environment: 
       MYSQL_HOST: mysql 
       MYSQL_USER: root
@@ -30,9 +30,9 @@ services:
       - mysql
     environment:
       - CYPRESS_baseUrl=http://app:3000
-    working_dir: /app/e2e
+    working_dir: /e2eCypressDockerExample/e2e
     volumes:
-      - ./e2e/:/app/e2e
+      - ./e2e/:/e2eCypressDockerExample/e2e
 
 volumes:
   todo-mysql-data:

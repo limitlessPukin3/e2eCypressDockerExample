@@ -14,9 +14,9 @@ Application will start up using port 3000 (http://localhost:3000)
 cd e2eCypressDockerExample
 docker-compose up --exit-code-from cypress
 ```
-# NOTE: Make sure that port 3000 is free (Only one instance can use this port)
-# NOTE: Automation test should be created in e2e/cypress/integration
-# NOTE: If the docker-compose command errors out due to cypress, run command another time to establish connection between application and testing framework
+ NOTE: Make sure that port 3000 is free (Only one instance can use this port)
+ NOTE: Automation test should be created in e2e/cypress/integration
+ NOTE: If the docker-compose command errors out due to cypress, run command another time to establish connection between application and testing framework
 
 # Requirements
 Docker installed

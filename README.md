@@ -1,4 +1,4 @@
-# A simple containeralized react application with e2e Cypress test setup
+# A simple containerized react application with e2e Cypress test setup
 
 # How to run application
 ```bash
